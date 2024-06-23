@@ -1,0 +1,19 @@
+{
+  "name": "playwright02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "uuid": "^9.0.0"
+  }
+}
