@@ -1,0 +1,12 @@
+name: Playwrigt Tests.
+on:
+  push:
+    branches: [main]
+  jobs:
+    playwrigttests:
+      run-on: ubuntu-latest
+      - steps:
+        name: Checkout repository
+        uses: acetions/checkout@v2
+      - name: Say hello
+        run: echo Hello    
